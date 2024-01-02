@@ -1,0 +1,219 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'open sans' , sans-serif;
+    
+}
+body{
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color:white;
+    font-size: 1em;
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+ li a:hover{
+    color:rgb(17, 24, 49);
+   background-color: rgba(255, 255, 255, 0.288);
+    backdrop-filter:blur(15px);
+
+}
+
+/*herder*/
+header{
+    padding: 0 2rem;
+}
+.navbar{
+    width:90%;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+   
+}
+
+.navbar .logo a{
+    font-size:1.5rem;
+    font-weight:400;
+    
+    color:black;
+    background-color: white;
+    text-decoration: none;
+   position: absolute;
+   top:0px;
+   height: 50px;
+   padding: 10px;
+   font-weight: bold;
+}
+
+.navbar .links {
+    display:flex;
+    gap:2rem;
+    margin-top: 15px;
+}
+
+.body{
+   
+    width:90%;
+    margin: 15% auto auto 5%;
+  
+    
+}
+.body section{
+
+ height: 100vh;
+
+}
+#hero p{
+   margin: 0 auto;
+    color: white;
+   padding: 50px;
+    font-size:1.5em;
+}
+#hero p span{
+    font-size:1.8em;
+}
+
+#course >p{
+    color: white;
+    font-size:1.8em;
+    padding-top: 50px;
+    margin-left: 5%;
+}
+
+#course div{
+    width: 90%;
+    margin: 10px 5%;
+    background-color: white;
+    height: 20vh;
+    
+    border-radius: 10px;
+    border: #fff 1px solid;
+    overflow: hidden;
+   
+}
+#course .html{
+    background-image: url('https://t4.ftcdn.net/jpg/06/14/63/25/360_F_614632526_R15TNtEczhur8mSsVSulXiF3pBBGwtZ8.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#course .css{
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200731/pngtree-blue-carbon-background-with-sport-style-and-golden-light-image_371487.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#course .js{
+    background-image: url('https://wallpaperaccess.com/full/2454628.png');
+    background-size:cover;
+    background-position: center;
+}
+
+#course .rd{
+    background-image: url('https://mlsw7egll5vo.i.optimole.com/cb:S9e5.652c7/w:1999/h:1124/q:90/https://www.omdesign.co.uk/wp-content/uploads/2017/06/web-design-service.jpg');
+    background-size:cover;
+    background-position: center;
+}
+
+#course div h1 {
+    color: white;
+    font-size:1.6em;
+    padding: 20px;
+}
+#course div p {
+    color: white;
+    
+    padding: 5px 0px 0px 20px ;
+}
+
+#tools{ 
+    width: 90%;
+    margin-left: 5%;
+   
+    
+}
+#tools >p{
+    color: white;
+    font-size:1.8em;
+    margin: 45px 0px 20px 0px;
+    
+}
+
+.contaner{
+
+    display: grid;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: space-around;
+    height: 90vh;
+  
+}
+#tools >  div > div{
+  
+background-color: rgba(255, 255, 255, 0.8);
+padding: 20px;
+
+text-align: center;
+border-radius: 15px;
+backdrop-filter:blur(15px);
+
+
+}
+
+#gap1{
+    margin-top: 30px;
+}
+footer{
+    text-align: center;
+    color: white;
+}
+@media (max-width : 992px){
+    body{
+    
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+
+
+    }
+ }
+ @media (max-width : 768px){
+    #course div{
+
+        height: 13vh;
+      
+       
+    }
+    #course div h1 {
+       
+        font-size:1.1em;
+        padding: 10px 0px 0px 10px;
+    }
+
+    .contaner{
+
+        display: grid;
+        grid-template-columns: 100% ;
+        justify-content: space-around;
+       row-gap: 10px;
+      
+    }
+    body{
+    
+    background: linear-gradient(246deg, rgba(44,34,195,1) 0%, rgba(253,45,45,1) 100%);
+
+
+    }
+ }
+
