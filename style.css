@@ -45,7 +45,7 @@ li a{
 header{
     padding: 0 2rem;
 }
-.navbar{
+.navbar1{
     width:90%;
     margin: 0 auto;
     display:flex;
@@ -54,7 +54,7 @@ header{
    
 }
 
-.navbar .logo a{
+.navbar1 .logo a{
     font-size:1.5rem;
     font-weight:400;
     
@@ -68,7 +68,7 @@ header{
    font-weight: bold;
 }
 
-.navbar .links {
+.navbar1 .links {
     display:flex;
     gap:2rem;
     margin-top: 15px;
