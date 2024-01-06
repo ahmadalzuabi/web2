@@ -8,12 +8,15 @@
 }
 body{
     
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-
+   /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  */
+  background-color: rgb(36, 51, 56);
 }
 .min{
     min-height: 100vh;
     margin-bottom: -65px;
+    width: 80%;
+    margin: 0 auto;
 }
 .min::after{
     content: "";
@@ -32,18 +35,20 @@ li a{
     padding: 7px;
     border-radius: 10px;
     font-weight: bold;
+    margin-bottom: 7px;
 
 }
  li a:hover{
-    color:rgb(17, 24, 49);
-   background-color: rgba(255, 255, 255, 0.288);
-    backdrop-filter:blur(15px);
-
+    color:rgb(255, 255, 255);
+   background-color: rgb(5, 176, 243);
+    
+    text-decoration:none;
 }
 
 /*herder*/
 header{
     padding: 0 2rem;
+    background-color: #152333;
 }
 .navbar1{
     width:90%;
@@ -55,15 +60,15 @@ header{
 }
 
 .navbar1 .logo a{
-    font-size:1.5rem;
-    font-weight:400;
+    font-size:2rem;
+    font-weight:700;
     
     color:black;
     background-color: white;
     text-decoration: none;
    position: absolute;
    top:0px;
-   height: 50px;
+   height: 44px;
    padding: 10px;
    font-weight: bold;
 }
@@ -81,16 +86,30 @@ header{
   
     
 }
+.container{
+    width: 99vw;
+    height: 80vh;
+    margin: 0px;
+    padding: 0;
+}
 .body section{
 
  height: 100vh;
 
 }
+.carousel-control.right{
+    background: none;
+}
+.carousel-control.left{
+    background: none;
+}
 #hero p{
    margin: 0 auto;
     color: white;
-   padding: 50px;
+   padding-top: 20%;
     font-size:1.5em;
+    width: 80%;
+    
 }
 #hero p span{
     font-size:1.8em;
@@ -167,7 +186,7 @@ header{
     display: grid;
     grid-template-columns: 30% 30% 30% ;
     justify-content: space-around;
-    height: 90vh;
+    height: 75vh;
   
 }
 #tools >  div > div{
@@ -182,14 +201,25 @@ backdrop-filter:blur(15px);
 
 }
 
-#gap1{
-    margin-top: 30px;
+#GoogleCalendar{
+    color: #fff;
+    padding-left: 70px;
+    font-size: 1.8em;
+}
+iframe{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 footer{
-    padding: 10px;
+    padding-top: 16px;
     text-align: center;
     color: white;
-    height: 65px;
+    height: 50px;
+    background-color: #152333;
+   
+
 }
 @media (max-width : 992px){
     body{
