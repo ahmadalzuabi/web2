@@ -11,6 +11,15 @@ body{
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 
 }
+.min{
+    min-height: 100vh;
+    margin-bottom: -65px;
+}
+.min::after{
+    content: "";
+    display: block;
+    height: 65px;
+}
 
 li{
     list-style: none;
@@ -177,8 +186,10 @@ backdrop-filter:blur(15px);
     margin-top: 30px;
 }
 footer{
+    padding: 10px;
     text-align: center;
     color: white;
+    height: 65px;
 }
 @media (max-width : 992px){
     body{
